@@ -4,26 +4,38 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Puratchidasan Munusami | DevOps CV</title>
-  <meta name="description" content="Single-page DevOps CV website for Puratchidasan Munusami." />
+  <meta name="description" content="Freelance DevOps Engineer in Brussels specializing in ELK, Kubernetes, CI/CD automation, and platform reliability." />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <div class="bg-effects"></div>
 
-  <main class="container">
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a href="#top" class="brand">Puratchidasan Munusami</a>
+      <nav class="topnav">
+        <a href="#services">Services</a>
+        <a href="#results">Results</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a class="btn btn-primary btn-small" href="#contact">Hire Me</a>
+    </div>
+  </header>
+
+  <main class="container" id="top">
     <section class="hero card">
       <div class="hero-main">
         <span class="pill">Belgian Freelancer • Available Immediately</span>
-        <h1>Puratchidasan Munusami</h1>
+        <h1>Freelance DevOps Engineer in Brussels</h1>
         <p class="subtitle">
-          DevOps / Platform Engineer focused on <strong>ELK observability</strong>,
-          <strong>Ansible automation</strong>, CI/CD engineering, and platform reliability
-          across enterprise environments in Belgium.
+          I help companies improve <strong>platform reliability</strong>, <strong>ELK observability</strong>,
+          <strong>Ansible automation</strong>, and <strong>CI/CD delivery speed</strong> across enterprise environments.
         </p>
 
         <div class="hero-actions">
           <a class="btn btn-primary" href="Puratchidasan_Munusami_CV.pdf" download>Download PDF CV</a>
-          <a class="btn btn-secondary" href="mailto:puratchidasan@gmail.com?subject=DevOps%20Freelance%20Opportunity">Contact by Email</a>
+          <a class="btn btn-secondary" href="#contact">Start a Project</a>
         </div>
 
         <div class="metrics">
@@ -47,8 +59,11 @@
       </div>
 
       <aside class="hero-side">
-        <img class="profile-photo" src="profile-placeholder.jpg" alt="Profile placeholder" />
+        <div class="photo-frame">
+          <img class="profile-photo" src="profile-placeholder.jpg" alt="Puratchidasan Munusami" />
+        </div>
         <div class="contact-list">
+          <div><span>Name:</span> Puratchidasan Munusami</div>
           <div><span>Location:</span> Etterbeek, Brussels</div>
           <div><span>Email:</span> <a href="mailto:puratchidasan@gmail.com">puratchidasan@gmail.com</a></div>
           <div><span>Phone:</span> <a href="tel:+32470782468">+32 470 78 24 68</a></div>
@@ -57,6 +72,63 @@
           <div><span>LinkedIn:</span> <a href="https://www.linkedin.com/in/puratchidasan/" target="_blank" rel="noreferrer">View profile</a></div>
         </div>
       </aside>
+    </section>
+
+    <section class="client-strip card">
+      <div class="client-strip-title">Worked with</div>
+      <div class="client-pills">
+        <span>Mastercard</span>
+        <span>SWIFT</span>
+        <span>KBC Bank</span>
+        <span>BNP Paribas</span>
+        <span>Tavant Technologies</span>
+      </div>
+    </section>
+
+    <section class="services-results">
+      <div class="card" id="services">
+        <h2>DevOps Freelance Services</h2>
+        <div class="service-grid">
+          <div class="service-item">
+            <h3>ELK Observability</h3>
+            <p>Centralized logging, Logstash pipelines, Kibana dashboards, and search optimization for production systems.</p>
+          </div>
+          <div class="service-item">
+            <h3>Ansible Automation</h3>
+            <p>Repeatable platform provisioning, deployment automation, and configuration management across enterprise environments.</p>
+          </div>
+          <div class="service-item">
+            <h3>CI/CD Engineering</h3>
+            <p>Jenkins and pipeline automation to reduce release times, improve quality gates, and remove manual work.</p>
+          </div>
+          <div class="service-item">
+            <h3>Kubernetes Platform</h3>
+            <p>Microservice deployment support with Helm, operational readiness, monitoring, and production release coordination.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card" id="results">
+        <h2>Results Delivered</h2>
+        <div class="result-list">
+          <div class="result-card">
+            <div class="result-number">1 month → 2 days</div>
+            <div class="result-text">Deployment timeline reduced through CI/CD automation</div>
+          </div>
+          <div class="result-card">
+            <div class="result-number">80%</div>
+            <div class="result-text">Manual deployment work eliminated with automation</div>
+          </div>
+          <div class="result-card">
+            <div class="result-number">60%</div>
+            <div class="result-text">Faster incident detection through monitoring dashboards</div>
+          </div>
+          <div class="result-card">
+            <div class="result-number">Millions/day</div>
+            <div class="result-text">Application logs processed in centralized ELK platform</div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <section class="grid-top">
@@ -126,39 +198,40 @@
           </div>
         </div>
 
-        <div class="card">
-          <h2>Contact Form</h2>
+        <div class="card" id="contact">
+          <h2>Let's Work Together</h2>
           <p class="form-note">
-          </p>     		  
-		  <form action="https://formspree.io/f/xbdplwqz" method="POST" class="contact-form">
-			  <label>
-				Your Name
-				<input type="text" name="name" placeholder="Enter your name" required />
-			  </label>
-			  <label>
-				Your Email
-				<input type="email" name="email" placeholder="Enter your email" required />
-			  </label>
-			  <label>
-				Subject
-				<input type="text" name="subject" placeholder="DevOps freelance opportunity" />
-			  </label>
-			  <label>
-				Message
-				<textarea name="message" rows="5" placeholder="Write your message here" required></textarea>
-			  </label>
-			  <button type="submit" class="btn btn-primary">Send Message</button>
-			</form>
+            Tell me about your DevOps, platform, observability, or automation need. I usually respond quickly for freelance opportunities in Belgium.
+          </p>
+          <form action="https://formspree.io/f/xbdplwqz" method="POST" class="contact-form">
+            <label>
+              Your Name
+              <input type="text" name="name" placeholder="Enter your name" required />
+            </label>
+            <label>
+              Your Email
+              <input type="email" name="email" placeholder="Enter your email" required />
+            </label>
+            <label>
+              Subject
+              <input type="text" name="subject" placeholder="DevOps freelance opportunity" />
+            </label>
+            <label>
+              Message
+              <textarea name="message" rows="5" placeholder="Write your message here" required></textarea>
+            </label>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </form>
         </div>
       </div>
 
-      <div class="card timeline-card">
+      <div class="card timeline-card" id="experience">
         <div class="timeline-title-row">
           <div>
             <h2>Experience Timeline</h2>
             <p>Achievement-led highlights aligned for DevOps consultancy recruitment.</p>
           </div>
-          <div class="timeline-badge">Oliver James style profile</div>
+          <div class="timeline-badge">DevOps profile</div>
         </div>
 
         <div class="timeline">
@@ -255,5 +328,7 @@
       </div>
     </section>
   </main>
+
+  <a class="floating-cta" href="#contact">Available for DevOps Consulting →</a>
 </body>
 </html>
