@@ -80,8 +80,14 @@
 
 .country-work-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(3, 1fr);
   gap: 18px;
+}
+
+@media (max-width: 1100px) {
+  .country-work-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 .country-card {
@@ -241,6 +247,25 @@
             <span>IBM</span>
           </div>
         </div>
+		<div class="country-card">
+		  <div class="country-head">
+			<div class="country-map">
+			  <img src="au.svg" alt="Australia map" class="map-img">
+			</div>
+			<div>
+			  <div class="country-name">Australia</div>
+			  <div class="country-sub">Client engagement & telecom delivery</div>
+			</div>
+		  </div>
+
+	  <div class="client-pills">
+		<span>Telstra</span>
+		<span>Client Visit (HPE)</span>
+		<span>War Room</span>
+		<span>Melbourne</span>
+		
+	  </div>
+</div>
       </div>
     </section>
 
