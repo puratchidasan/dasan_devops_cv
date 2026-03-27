@@ -77,6 +77,65 @@
   filter: drop-shadow(0 0 6px rgba(34,211,238,0.6));
 }
 
+
+.country-work-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px;
+}
+
+.country-card {
+  border: 1px solid rgba(255,255,255,0.10);
+  background: rgba(15, 23, 42, 0.52);
+  border-radius: 22px;
+  padding: 18px;
+}
+
+.country-head {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 14px;
+  align-items: center;
+  margin-bottom: 14px;
+}
+
+.country-map {
+  display: grid;
+  place-items: center;
+  width: 76px;
+  height: 60px;
+  border-radius: 16px;
+  background: rgba(255,255,255,0.03);
+  border: 1px solid rgba(255,255,255,0.08);
+  box-shadow: 0 0 22px rgba(34,211,238,0.08);
+}
+
+.country-name {
+  font-size: 20px;
+  font-weight: 800;
+  color: #f8fafc;
+}
+
+.country-sub {
+  margin-top: 4px;
+  color: #94a3b8;
+  line-height: 1.5;
+  font-size: 14px;
+}
+
+@media (max-width: 900px) {
+  .country-work-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+.map-img{
+  width:60px;
+  height:auto;
+  object-fit:contain;
+}
+
 </style>
 
 </head>
@@ -148,13 +207,40 @@
     </section>
 
     <section class="client-strip card">
-      <div class="client-strip-title">Worked with</div>
-      <div class="client-pills">
-        <span>Mastercard</span>
-        <span>SWIFT</span>
-        <span>KBC Bank</span>
-        <span>BNP Paribas</span>
-        <span>Tavant Technologies</span>
+      <div class="client-strip-title">Worked Across Belgium & India</div>
+      <div class="country-work-grid">
+        <div class="country-card">
+          <div class="country-head">
+            <div class="country-map">
+              <img src="be.svg" alt="Belgium map" class="map-img"></div>
+            <div>
+              <div class="country-name">Belgium</div>
+              <div class="country-sub">Enterprise platforms, banking, payments, and operations</div>
+            </div>
+          </div>
+          <div class="client-pills">
+			<span>BNP Paribas</span>
+            <span>SWIFT</span>
+            <span>KBC Bank</span>
+			<span>Mastercard</span>
+          </div>
+        </div>
+
+        <div class="country-card">
+          <div class="country-head">
+            <div class="country-map">
+              <img src="in.svg" alt="India map" class="map-img"></div>
+            <div>
+              <div class="country-name">India</div>
+              <div class="country-sub">Software engineering, Automation, Architecture</div>
+            </div>
+          </div>
+          <div class="client-pills">
+            <span>Tavant Technologies</span>
+            <span>Hewlett Packard Enterprise</span>
+            <span>IBM</span>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -413,25 +499,46 @@
               </div>
               <div class="cert-grid">
                 <div class="cert-card">
-                  <div class="cert-icon">⚙️</div>
+                  <div class="cert-icon">
+<svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="#22d3ee" stroke-width="2">
+<circle cx="12" cy="12" r="9"/>
+<path d="M8 12h8M12 8v8"/>
+</svg>
+</div>
                   <div class="cert-title">DevOps Foundation® Certification</div>
                   <div class="cert-meta">DevOps Institute</div>
                   <div class="cert-date">Feb 2020</div>
                 </div>
                 <div class="cert-card">
-                  <div class="cert-icon">🔐</div>
+                  <div class="cert-icon">
+<svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="#22d3ee" stroke-width="2">
+<path d="M12 2l8 4v6c0 5-3.5 8-8 10-4.5-2-8-5-8-10V6l8-4z"/>
+</svg>
+</div>
                   <div class="cert-title">DevSecOps: Continuous Application Security</div>
                   <div class="cert-meta">LinkedIn</div>
                   <div class="cert-date">Feb 2020</div>
                 </div>
                 <div class="cert-card">
-                  <div class="cert-icon">🛠️</div>
+                  <div class="cert-icon">
+<svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="#22d3ee" stroke-width="2">
+<path d="M14 7l3-3 3 3-3 3z"/>
+<path d="M3 21l9-9"/>
+</svg>
+</div>
                   <div class="cert-title">CloudBees University: Jenkins Administration - Fundamentals</div>
                   <div class="cert-meta">CloudBees University</div>
                   <div class="cert-date">Jan 2020</div>
                 </div>
                 <div class="cert-card">
-                  <div class="cert-icon">🤖</div>
+                  <div class="cert-icon">
+<svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="#22d3ee" stroke-width="2">
+<circle cx="12" cy="12" r="9"/>
+<circle cx="9" cy="10" r="1"/>
+<circle cx="15" cy="10" r="1"/>
+<path d="M8 15h8"/>
+</svg>
+</div>
                   <div class="cert-title">Build+Deploy+Test with TFS 2015 and Selenium Automation</div>
                   <div class="cert-meta">Udemy</div>
                   <div class="cert-date">Nov 2019</div>
