@@ -1,28 +1,100 @@
-# GitHub Pages CV Site (Photo + PDF + Contact Form)
+# 👨‍💻 Puratchidasan Munusami – DevOps Engineer
 
-This package is ready to upload directly to a GitHub repository and publish with GitHub Pages.
+Senior **DevOps / Platform Engineer based in Brussels, Belgium** with **15+ years in software engineering and 8+ years in DevOps** specializing in **automation, observability platforms, and enterprise CI/CD pipelines**.
 
-## Included
-- `index.html`
-- `styles.css`
-- `profile-placeholder.svg`
-- `Puratchidasan_Munusami_CV.pdf`
+I have delivered DevOps and platform engineering solutions for organizations including:
 
-## Notes
-- The current photo is a placeholder. Replace `profile-placeholder.svg` with your own image and keep the same file name, or update the image path in `index.html`.
-- The contact form currently uses `mailto:` so it opens the visitor's email app.
-- If you want real form submission on GitHub Pages, connect the form to Formspree, Getform, or a serverless backend.
+* **Mastercard**
+* **SWIFT**
+* **KBC Bank**
+* **BNP Paribas**
+* **Tavant Technologies**
 
-## Publish steps
-1. Create a new GitHub repository.
-2. Upload all files from this folder to the root of the repository.
-3. Commit to the `main` branch.
-4. In GitHub, open **Settings > Pages**.
-5. Under **Build and deployment**, choose:
-   - **Source:** Deploy from a branch
-   - **Branch:** `main`
-   - **Folder:** `/ (root)`
-6. Save.
+My focus is building **reliable, automated, and observable platforms** for modern microservices and enterprise systems.
 
-Your website will be published at:
-`https://YOUR_GITHUB_USERNAME.github.io/YOUR_REPOSITORY_NAME/`
+---
+
+# 🚀 Core Expertise
+
+### Observability Platforms
+
+* ELK Stack (Elasticsearch, Logstash, Kibana, Filebeat)
+* Splunk
+* Grafana
+* Log analytics and centralized logging architecture
+
+### DevOps Automation
+
+* Ansible automation
+* Infrastructure as Code
+* Python scripting
+
+### CI/CD Engineering
+
+* Jenkins
+* CloudBees
+* Bitbucket / Git
+* Nexus / Artifactory
+* SonarQube
+
+### Containers & Platform
+
+* Kubernetes
+* Helm
+* Docker
+
+### Messaging Platforms
+
+* Kafka
+
+---
+
+# 📊 Key Achievements
+
+✔ Reduced deployment cycles from **1 month to 2 days** through CI/CD automation
+✔ Reduced **manual operations by 80%** via automation pipelines
+✔ Improved incident detection speed by **60% using observability dashboards**
+✔ Built centralized logging platforms processing **millions of logs daily**
+
+---
+
+# 🌐 DevOps CV Website
+
+This repository contains my **single-page DevOps CV website** built using **HTML and CSS** and deployed using **GitHub Pages**.
+
+Features include:
+
+* Interactive DevOps skill visualization
+* ELK architecture diagram
+* Experience timeline
+* Downloadable CV
+* Contact form
+
+Live site:
+
+```
+https://puratchidasan.github.io/dasan_devops_cv/
+```
+
+---
+
+# 📫 Contact
+
+📍 Brussels, Belgium
+📧 [puratchidasan@gmail.com](mailto:puratchidasan@gmail.com)
+🔗 LinkedIn
+[https://www.linkedin.com/in/puratchidasan/](https://www.linkedin.com/in/puratchidasan/)
+
+---
+
+# ⚙️ Tech Stack Used for this Site
+
+* HTML5
+* CSS3
+* GitHub Pages
+
+---
+
+💡 *This repository demonstrates how a DevOps engineer can present technical experience through an interactive web CV.*
+
+---
