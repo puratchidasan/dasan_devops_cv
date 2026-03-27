@@ -24,6 +24,7 @@
         <div class="hero-actions">
           <a class="btn btn-primary" href="Puratchidasan_Munusami_CV.pdf" download>Download PDF CV</a>
           <a class="btn btn-secondary" href="mailto:puratchidasan@gmail.com?subject=DevOps%20Freelance%20Opportunity">Contact by Email</a>
+		  <a class="btn btn-secondary" href="mailto:puratchidasan@gmail.com?subject=DevOps%20Freelance%20Opportunity">Contact by Email</a>
         </div>
 
         <div class="metrics">
@@ -129,28 +130,26 @@
         <div class="card">
           <h2>Contact Form</h2>
           <p class="form-note">
-            This form opens your email app directly from GitHub Pages. If you later want real message delivery on the site,
-            connect it to Formspree, Getform, or Netlify Forms.
-          </p>
-          <form action="mailto:puratchidasan@gmail.com" method="post" enctype="text/plain" class="contact-form">
-            <label>
-              Your Name
-              <input type="text" name="name" placeholder="Enter your name" />
-            </label>
-            <label>
-              Your Email
-              <input type="email" name="email" placeholder="Enter your email" />
-            </label>
-            <label>
-              Subject
-              <input type="text" name="subject" placeholder="DevOps freelance opportunity" />
-            </label>
-            <label>
-              Message
-              <textarea name="message" rows="5" placeholder="Write your message here"></textarea>
-            </label>
-            <button type="submit" class="btn btn-primary">Send Message</button>
-          </form>
+          </p>     		  
+		  <form action="https://formspree.io/f/xbdplwqz" method="POST" class="contact-form">
+			  <label>
+				Your Name
+				<input type="text" name="name" placeholder="Enter your name" required />
+			  </label>
+			  <label>
+				Your Email
+				<input type="email" name="email" placeholder="Enter your email" required />
+			  </label>
+			  <label>
+				Subject
+				<input type="text" name="subject" placeholder="DevOps freelance opportunity" />
+			  </label>
+			  <label>
+				Message
+				<textarea name="message" rows="5" placeholder="Write your message here" required></textarea>
+			  </label>
+			  <button type="submit" class="btn btn-primary">Send Message</button>
+			</form>
         </div>
       </div>
 
